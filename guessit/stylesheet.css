@@ -1,0 +1,31 @@
+body{
+	padding: 0px;
+	margin: auto;
+	box-sizing: border-box;
+	background: #d0e5e5;
+	font-family: 'Jua', sans-serif;
+}
+h1{
+    text-align: center;
+    margin:5% auto;
+    font-size: 20px;
+}
+p {
+	margin: 10px auto;
+	font-size: 16px;
+	text-align: center;
+	padding:5px;
+}
+
+button {
+	font-size: 25px;
+	margin: 2% auto; 
+	padding: 2%;
+	color: white;
+	background:#299984;
+	text-align: center;
+	display: block;
+	box-shadow:5px 5px #537c7a;
+	font-family: 'Jua', sans-serif;
+}
+
