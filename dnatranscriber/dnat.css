@@ -1,0 +1,119 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Mono', monospace;
+    background-color:rgba(204, 188, 219, 0.6);
+}
+main{
+    width: 80vw;
+    display: flex;
+    flex-direction:column;
+    margin:auto;
+    align-items:flex-start;
+    margin: 2% 5%;
+    padding: 5px;
+}
+section{
+    display: flex;
+    width:80%;
+    margin: 2% 5%;
+    padding: 5px;
+}
+section > p{
+    text-align: left;
+}
+h1{
+    font-family: 'IBM Plex Mono', monospace;
+    text-align:center;
+    margin:5px auto;
+}
+ul{
+    
+}
+
+#dataInput{ /*container of input and button*/
+    width: 80%;
+    height:30%;
+    background-color: rgba(204, 188, 219, 0.7);
+    margin:auto;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+#myInput{ /* to enter data */
+    width: 60vw;
+    padding: 10px;
+    margin-top: 5%;
+    border-radius: 5px;
+    
+}
+button{
+    width: 30%;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #b6a6c4;
+    color: white;
+    font-size: 1em;
+    padding: 5px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    box-shadow: 1px 2px black;
+    font-family: 'IBM Plex Mono', monospace;
+}
+#refresh{ /* added a function to clear input so this is no longer needed */
+    display: none;
+    width:20%;
+    border: 1px solid black;
+    border-radius: 5px;
+     background-color: #b6a6c4;
+    color: white;
+    font-size: 1em;
+    padding: 5px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    box-shadow: 1px 2px black;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+
+#globalContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5% auto;
+}
+.subcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:#e0dbe0;
+    margin:auto;
+}
+#dnaContainer > p{
+    background-color:#7c6b7f;
+    width: 1em;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 1.3em;
+    padding: 5px;
+    margin: 1px;/* margin needed to override user agent stylesheet webkit-margin-after...bla bla*/
+}
+#rnaContainer > p{
+    background-color: #a3599f;
+    width: 1em;
+    border-radius: 50%;
+    font-size: 1.25em;
+    padding: 5px;
+    text-align:center;
+    margin: 1px;
+}
+
+#conectors > p{
+    font-size: 1.25em;
+    padding: 5px 5px;
+    font-weight: bold;
+    color: #3f3d3f;
+    margin: 1px;
+    
+}

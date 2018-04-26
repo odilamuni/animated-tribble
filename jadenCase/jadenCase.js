@@ -12,7 +12,6 @@ function jadenCased (str){
   pageNode.style.background = "url(Black-Eyed-Peas-Where-Is-The-Love.jpg)" ;
 }
 
-//document.getElementById("original").onfocus = function() {clearAndGo()};
 function clearAndGo (){
    document.getElementById("original").value = ' ';
    document.getElementById("editedText").innerHTML=" ";
