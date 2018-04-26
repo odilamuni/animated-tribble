@@ -1,6 +1,5 @@
 body{
 display: flex;
-/*position: relative;*/
 background-color: #313E50;
 font-family: 'Courier new', sans-serif;
 box-sizing: border-box;
@@ -18,18 +17,7 @@ margin: 0px;
  margin:auto;
 }
 
-/*
-
-
-#container{
- z-index: 1;
-display: flex;
-flex-flow:column wrap;
-justify-content:space-around;
-margin:auto;
-}
-
-header*/
+/*header*/
 h1{
  color: #fff;
  font-size: 4em;
