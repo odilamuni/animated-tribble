@@ -1,6 +1,12 @@
 # animated-tribble
 milestones on my journey to FE-Dev lands with CodeTheDream - Durham NC
 
+#Rock Paper Scissors
+http://htmlpreview.github.io/?https://github.com/odilamuni/animated-tribble/blob/master/RPS/RPS.html
+Classic 2 player game. Each player chooses either rock, paper or scissors. The possible outcomes:
+*Rock destroys scissors. *Scissors cut paper. *Paper covers rock.
+You, the user, make a choice. Computer makes a choice. A compare function will determine who wins.
+
 
 #RNA transcriber:
 http://htmlpreview.github.io/?https://github.com/odilamuni/animated-tribble/blob/master/dnatranscriber/dnat.html
@@ -21,9 +27,8 @@ Create a user interface for this project using HTML and CSS.
 http://htmlpreview.github.io/?https://github.com/odilamuni/animated-tribble/blob/master/jadenCase/jadenCase.html
 
 Jaden Smith, the son of Will Smith, is the star of films such as The Karate Kid (2010) and After Earth (2013). Jaden is also known for some of his philosophy that he delivers via Twitter. When writing on Twitter, he is known for almost always capitalizing every word.
-Your task is to convert strings to how they would be written by Jaden Smith. The strings are actual quotes from Jaden Smith, but they are not capitalized in the same way he originally typed them.
-Example:
-Not Jaden-Cased: "How can mirrors be real if our eyes aren't real" Jaden-Cased: "How Can Mirrors Be Real If Our Eyes Aren't Real"
+"Jaden Case" converts strings to how they would be written by Jaden Smith. 
+Example: *Not Jaden-Cased: "How can mirrors be real if our eyes aren't real". *Jaden-Cased: "How Can Mirrors Be Real If Our Eyes Aren't Real"
 Other Jaden quotes you can try out: 1. "The More Time You Spend Awake The More Time You Spend Asleep." 2. "Currently Going Through Customs 
 
 #Number guessing game
@@ -31,7 +36,6 @@ http://htmlpreview.github.io/?https://github.com/odilamuni/animated-tribble/blob
 
 Create a number guessing game that will ask a user to guess the correct number.
 Give the user clues like 'Too High' or 'Too Low.'
-After 5 incorrect guesses, the program should tell you that you lose. It should tell you all the numbers you have guessed, and what the correct answer is.
-AND create a user interface for your game using html and css.
-For regular mode, you can choose the number and set it to a variable. For harder and nightmare mode, use Math.random to generate a number.
+After 5 incorrect guesses, the program should tell you that you lose, all the numbers you have guessed, and what the correct answer is.
+Interface for your game using html and css. Use Math.random to generate a number.
 Push your code to github.​
